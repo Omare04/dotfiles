@@ -1,11 +1,9 @@
 return {
-  {
-    "okuuva/auto-save.nvim",
-    cmd = "ASToggle",
-    event = "InsertLeave",
-    opts = {
-      enabled = true,
-      execution_message = nil,
-    },
-  },
+	"okuuva/auto-save.nvim",
+	config = function()
+		require("auto-save").setup({
+			enabled = true,
+			execution_message = { message = "" },
+		})
+	end,
 }
