@@ -1,4 +1,4 @@
-````md
+
 # Dotfiles
 
 Personal environment configuration for my development setup (tmux, neovim, zsh, etc).  
@@ -49,8 +49,4 @@ This installs all plugins defined in `.tmux.conf`.
 nvim
 ```
 
-Plugins will sync automatically.
 
----
-```
-```
