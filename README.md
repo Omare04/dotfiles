@@ -1,4 +1,4 @@
-````md
+
 # Dotfiles
 
 Personal environment configuration for my development setup (tmux, neovim, zsh, etc).  
@@ -19,8 +19,8 @@ cd ~/dotfiles
 
 ## Symlink Configs
 
-ln -s ~/dotfiles/starship/starship.toml ~/.config/starship.toml
 ```bash
+ln -s ~/dotfiles/starship/starship.toml ~/.config/starship.toml
 ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
 ln -s ~/dotfiles/nvim ~/.config/nvim
 ln -s ~/dotfiles/.zshrc ~/.zshrc
@@ -49,8 +49,4 @@ This installs all plugins defined in `.tmux.conf`.
 nvim
 ```
 
-Plugins will sync automatically.
 
----
-```
-```
